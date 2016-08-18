@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Best Table</title>
+  <style>
+  body {background: #ffffff;}
+
+  table {
+     width: 400px;
+     height: 200px;
+  }
+
+  tr {text-align:center; }
+
+  </style>
+</head>
+<body>
+
+  <table border="1" cellpadding="0" cellspacing="5">
+    <thead>
+      <tr>
+      <td>Nombre</td>
+      <td>Apellido</td>
+      <td colspan="2">Curso</td>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Juancito</td>
+      <td>Melon</td>
+      <td>Web Developer</td>
+      <td>Web Developer</td>
+    </tr>
+    <tr>
+      <td>Juancito</td>
+      <td>Melon</td>
+      <td colspan="2">Web Developer</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Juancito</td>
+      <td>Melon</td>
+      <td>Web Developer</td>
+    </tr>
+    <tr>
+
+      <td>Melon</td>
+      <td>Web Developer</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Paturusito</td>
+      <td>Jamon</td>
+      <td colspan="2">Telefonito Android</td>
+    </tr>
+  </tfoot>
+  </table>
+
+</body>
+</html>
